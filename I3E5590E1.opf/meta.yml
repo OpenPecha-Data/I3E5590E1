@@ -1,27 +1,50 @@
 id: I3E5590E1
+legacy_id: P009386
+ocr_import_info:
+  bdrc_scan_id: W29252
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-26T08:48:59'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-26T08:51:54+00:00'
-last_modified: '2022-06-08T10:38:45.696028+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-02T10:19:51.004384+00:00'
+last_modified: 2022-09-02 18:20:17.396194
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W29252
-  title: ཕ་བོང་ཁ་པའི་སློབ་མའི་དགག་ལན
-  author: ''
+  id: http://purl.bdrc.io/resource/W29252
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    '9818':
-      image_group_id: I5248
-      title: ''
+  reproduction_of: http://purl.bdrc.io/resource/MW29252
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: ཕ་བོང་ཁ་པའི་སློབ་མའི་དགག་ལན།
+  author: ལྡན་མ་བློ་བཟང་རྡོ་རྗེ།
+statistics:
+  ocr_word_mean_confidence_index: 0.7980824131559828
+  ocr_word_median_confidence_index: 0.8799999952316284
+quality: null
+bases:
+  I5248:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I5248
       total_pages: 482
-      order: 1
-      base_file: 9818.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I5248.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8799999952316284
+      ocr_word_mean_confidence_index: 0.7980824131559828
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
